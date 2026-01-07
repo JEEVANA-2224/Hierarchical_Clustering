@@ -4,7 +4,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.decomposition import PCA
 
-st.title("Wine Cluster Prediction – New Sample Only")
+st.title("🍷 Wine Cluster Prediction ")
+
 
 # Load saved objects
 with open("wine_scaler.pkl", "rb") as f:
